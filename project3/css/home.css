@@ -1,0 +1,224 @@
+@font-face {
+    font-family: 'aven';
+    src: url('Avonger.ttf')format('truetype'),url('Avonger.otf');
+}
+@font-face {
+    font-family: 'pic';
+    src: url('Pincuk.ttf')format('truetype'),url('Pincuk.woff');
+}
+
+body{
+    padding: 0%;
+    margin: 0%;
+}
+
+.header{
+    background-image: url('head3.png');
+    height: 334;
+    color: white;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    background-blend-mode: screen;
+    
+}
+
+.ul4{
+    list-style-type: none;
+
+
+}
+.li1{
+    font-family: pic;
+    font-size: 20px;
+    display: inline-block;
+    text-decoration: none;
+    padding: 25px;
+}
+.li1:hover{
+    color: rgb(255, 255, 151);
+}
+
+.header h1{
+    padding-top: 40px;
+    font-size: 35px;
+    font-family: aven;
+}
+.header span{
+    color: rgb(250, 250, 31);
+}
+.header .per{
+    font-family: pic;
+    border: 2px solid white ;
+    font-size: 17px;
+    width: 500px;
+    height: 35px;
+    line-height: 35px;
+    margin: auto;
+    border-radius: 20px;
+    background-color: rgba(1, 0, 20, 0.616);
+
+}
+
+.member-div{
+    text-align: center;
+}
+
+.member-ul{
+    list-style-type: none;
+    margin: 10;
+    padding: 30;
+}
+
+.member-li{
+    width: 220;
+
+    display: inline-block;
+    padding: 20;
+    margin: 20px;
+    box-shadow: 0 0  20px rgba(46, 42, 255, 0.329);
+    border-radius: 20px;
+}
+
+.member-imag{
+    width: 100%;
+    height: 210px;
+}
+
+.member-p{
+    text-align: justify;
+    font-family: pic;
+    font-size: 25px;
+    margin: 0%;
+}
+
+.member-h2{
+    text-align: center;
+    font-family: pic;
+    font-size:30px;
+    padding: 0%;
+    margin: 0%;
+}
+
+.member{
+    text-align: center;
+    font-family: pic;
+    font-size: 45px;
+    margin: px;
+}
+
+
+
+
+.post-ul{
+    list-style-type: none;
+    text-align: center;
+    padding: 0%;
+    margin: 0%;
+    
+}
+
+.post-li{
+    display: inline-block;
+    width: 280px;
+    box-shadow: 0 0  14px rgba(46, 42, 255, 0.329);
+    margin: 10px;
+    
+}
+
+.post-imag{
+    width:100%;
+    height: 300;
+}
+
+.post-h2{
+    text-align: center;
+    font-family: aven;
+    font-size: 20px;
+}
+
+.post-p{
+    text-align: justify;
+    font-family: pic;
+    font-size:23px;
+    padding: 11px;
+    
+}
+
+.post-h21{
+    color:rgb(207, 207, 40);
+    text-align: center;
+    font-family: aven;
+    font-size: 20px;
+}
+
+.blog-div{
+    margin-top: 60px;
+}
+
+.blog-p{
+    text-align: center;
+    font-family: pic;
+    font-size: 25px;
+    margin: 20px;
+    text-align: justify;
+    box-shadow: 0 0  20px rgb(223, 255, 42);
+    padding: 15px;
+
+}
+
+.blog-h3{
+    text-align: center;
+    font-size: 25px;
+    font-family: aven;
+    
+    
+}
+
+.blog-h3-span{
+    color:rgb(207, 207, 40) ;
+}
+
+.forg-ul{
+    display: inline-block;
+    list-style-type: none;
+    margin: 20px;
+}
+
+.forg-div{
+    background-color: rgb(20, 20, 20);
+    height: 260px;
+    margin-top: 40px;
+    background-image: url('../css/head3.png');
+}
+
+.forg-li{
+    font-size: 15px;
+    color: aliceblue;
+    padding: 10px;
+    line-height: 25px;
+    margin: 0%;
+    font-family: aven;
+}
+
+
+.forg-icon{
+
+}
+
+.forg-li-icon{
+    padding: 10px;
+    
+}
+
+.forg-ul-1{
+    display: inline-block;
+    list-style-type: none;
+    margin-right: auto;
+}
+
+.forg-span{
+    color:rgb(207, 207, 40);
+}
+
+
+
